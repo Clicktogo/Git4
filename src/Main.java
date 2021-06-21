@@ -6,7 +6,6 @@ import java.util.stream.Stream;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("git");
 
         List<Integer> list = new ArrayList<>();
         list = IntStream.range(1, 20).boxed().collect(Collectors.toList());
