@@ -10,10 +10,10 @@ public class Main {
 
         List<Integer> list = new ArrayList<>();
         list = IntStream.range(1, 20).boxed().collect(Collectors.toList());
-        System.out.println(list);
 
         System.out.println(findLowestValue(list));
-        System.out.println("Something");
+        System.out.println(findMaxValue(list));
+
     }
 
     public static Integer findLowestValue(List<Integer> list){
