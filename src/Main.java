@@ -19,4 +19,8 @@ public class Main {
     public static Integer findLowestValue(List<Integer> list){
        return list.stream().min(Comparator.naturalOrder()).get();
     }
+
+    public static Integer findMaxValue(List<Integer> list){
+        return list.stream().max(Comparator.naturalOrder()).get();
+    }
 }
