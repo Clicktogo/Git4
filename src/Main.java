@@ -13,7 +13,6 @@ public class Main {
 
         System.out.println(findLowestValue(list));
         System.out.println(findMaxValue(list));
-
     }
 
     public static Integer findLowestValue(List<Integer> list){
