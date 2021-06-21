@@ -9,7 +9,7 @@ public class Main {
         System.out.println("git");
 
         List<Integer> list = new ArrayList<>();
-        list = IntStream.range(1, 10).boxed().collect(Collectors.toList());
+        list = IntStream.range(1, 20).boxed().collect(Collectors.toList());
         System.out.println(list);
 
         System.out.println(findLowestValue(list));
